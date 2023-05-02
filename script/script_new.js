@@ -1,258 +1,258 @@
 const buttons = {
   Backquote: {
-    rus: ["ё", "Ё"],
+    ru: ["ё", "Ё"],
     en: ["`", "~"],
   },
   Digit1: {
-    rus: ["1", "!"],
+    ru: ["1", "!"],
     en: ["1", "!"],
   },
   Digit2: {
-    rus: ["2", '"'],
+    ru: ["2", '"'],
     en: ["2", "@"],
   },
   Digit3: {
-    rus: ["3", "№"],
+    ru: ["3", "№"],
     en: ["3", "#"],
   },
   Digit4: {
-    rus: ["4", ";"],
+    ru: ["4", ";"],
     en: ["4", "$"],
   },
   Digit5: {
-    rus: ["5", "%"],
+    ru: ["5", "%"],
     en: ["5", "%"],
   },
   Digit6: {
-    rus: ["6", ":"],
+    ru: ["6", ":"],
     en: ["6", "^"],
   },
   Digit7: {
-    rus: ["7", "?"],
+    ru: ["7", "?"],
     en: ["7", "&"],
   },
   Digit8: {
-    rus: ["8", "*"],
+    ru: ["8", "*"],
     en: ["8", "*"],
   },
   Digit9: {
-    rus: ["9", "("],
+    ru: ["9", "("],
     en: ["9", "("],
   },
   Digit0: {
-    rus: ["0", ")"],
+    ru: ["0", ")"],
     en: ["0", ")"],
   },
   Minus: {
-    rus: ["-", "_"],
+    ru: ["-", "_"],
     en: ["-", "_"],
   },
   Equal: {
-    rus: ["=", "+"],
+    ru: ["=", "+"],
     en: ["=", "+"],
   },
   Backspace: {
-    rus: ["Backspace", "Backspace"],
+    ru: ["Backspace", "Backspace"],
     en: ["Backspace", "Backspace"],
   },
   Tab: {
-    rus: ["Tab", "Tab"],
+    ru: ["Tab", "Tab"],
     en: ["Tab", "Tab"],
   },
   KeyQ: {
-    rus: ["й", "Й"],
+    ru: ["й", "Й"],
     en: ["q", "Q"],
   },
   KeyW: {
-    rus: ["ц", "Ц"],
+    ru: ["ц", "Ц"],
     en: ["w", "W"],
   },
   KeyE: {
-    rus: ["у", "У"],
+    ru: ["у", "У"],
     en: ["e", "E"],
   },
   KeyR: {
-    rus: ["к", "К"],
+    ru: ["к", "К"],
     en: ["r", "R"],
   },
   KeyT: {
-    rus: ["е", "Е"],
+    ru: ["е", "Е"],
     en: ["t", "T"],
   },
   KeyY: {
-    rus: ["н", "Н"],
+    ru: ["н", "Н"],
     en: ["y", "Y"],
   },
   KeyU: {
-    rus: ["г", "Г"],
+    ru: ["г", "Г"],
     en: ["u", "U"],
   },
   KeyI: {
-    rus: ["ш", "Ш"],
+    ru: ["ш", "Ш"],
     en: ["i", "I"],
   },
   KeyO: {
-    rus: ["щ", "Щ"],
+    ru: ["щ", "Щ"],
     en: ["o", "O"],
   },
   KeyP: {
-    rus: ["з", "З"],
+    ru: ["з", "З"],
     en: ["p", "P"],
   },
   BracketLeft: {
-    rus: ["х", "Х"],
+    ru: ["х", "Х"],
     en: ["[", "{"],
   },
   BracketRight: {
-    rus: ["ъ", "Ъ"],
+    ru: ["ъ", "Ъ"],
     en: ["]", "}"],
   },
   Backslash: {
-    rus: ["\\", "/"],
+    ru: ["\\", "/"],
     en: ["\\", "|"],
   },
   Delete: {
-    rus: ["Del", "Del"],
+    ru: ["Del", "Del"],
     en: ["Del", "Del"],
   },
   CapsLock: {
-    rus: ["CapsLock", "CapsLock"],
+    ru: ["CapsLock", "CapsLock"],
     en: ["CapsLock", "CapsLock"],
   },
   KeyA: {
-    rus: ["ф", "Ф"],
+    ru: ["ф", "Ф"],
     en: ["a", "A"],
   },
   KeyS: {
-    rus: ["ы", "Ы"],
+    ru: ["ы", "Ы"],
     en: ["s", "S"],
   },
   KeyD: {
-    rus: ["в", "В"],
+    ru: ["в", "В"],
     en: ["d", "D"],
   },
   KeyF: {
-    rus: ["а", "А"],
+    ru: ["а", "А"],
     en: ["f", "F"],
   },
   KeyG: {
-    rus: ["п", "П"],
+    ru: ["п", "П"],
     en: ["g", "G"],
   },
   KeyH: {
-    rus: ["р", "Р"],
+    ru: ["р", "Р"],
     en: ["h", "H"],
   },
   KeyJ: {
-    rus: ["о", "О"],
+    ru: ["о", "О"],
     en: ["j", "J"],
   },
   KeyK: {
-    rus: ["л", "Л"],
+    ru: ["л", "Л"],
     en: ["k", "K"],
   },
   KeyL: {
-    rus: ["д", "Д"],
+    ru: ["д", "Д"],
     en: ["l", "L"],
   },
   Semicolon: {
-    rus: ["ж", "Ж"],
+    ru: ["ж", "Ж"],
     en: [";", ":"],
   },
   Quote: {
-    rus: ["э", "Э"],
+    ru: ["э", "Э"],
     en: ["'", '"'],
   },
   Enter: {
-    rus: ["Enter", "Enter"],
+    ru: ["Enter", "Enter"],
     en: ["Enter", "Enter"],
   },
   ShiftLeft: {
-    rus: ["Shift", "Shift"],
+    ru: ["Shift", "Shift"],
     en: ["Shift", "Shift"],
   },
   KeyZ: {
-    rus: ["я", "Я"],
+    ru: ["я", "Я"],
     en: ["z", "Z"],
   },
   KeyX: {
-    rus: ["ч", "Ч"],
+    ru: ["ч", "Ч"],
     en: ["x", "X"],
   },
   KeyC: {
-    rus: ["с", "С"],
+    ru: ["с", "С"],
     en: ["c", "C"],
   },
   KeyV: {
-    rus: ["м", "М"],
+    ru: ["м", "М"],
     en: ["v", "V"],
   },
   KeyB: {
-    rus: ["и", "И"],
+    ru: ["и", "И"],
     en: ["b", "B"],
   },
   KeyN: {
-    rus: ["т", "Т"],
+    ru: ["т", "Т"],
     en: ["n", "N"],
   },
   KeyM: {
-    rus: ["ь", "Ь"],
+    ru: ["ь", "Ь"],
     en: ["m", "M"],
   },
   Comma: {
-    rus: ["б", "Б"],
+    ru: ["б", "Б"],
     en: [",", "<"],
   },
   Period: {
-    rus: ["ю", "Ю"],
+    ru: ["ю", "Ю"],
     en: [".", ">"],
   },
   Slash: {
-    rus: [".", ","],
+    ru: [".", ","],
     en: ["/", "?"],
   },
   ArrowUp: {
-    rus: ["▲", "▲"],
+    ru: ["▲", "▲"],
     en: ["▲", "▲"],
   },
   ShiftRight: {
-    rus: ["Shift", "Shift"],
+    ru: ["Shift", "Shift"],
     en: ["Shift", "Shift"],
   },
   ControlLeft: {
-    rus: ["Ctrl", "Ctrl"],
+    ru: ["Ctrl", "Ctrl"],
     en: ["Ctrl", "Ctrl"],
   },
   MetaLeft: {
-    rus: ["Win", "Win"],
+    ru: ["Win", "Win"],
     en: ["Win", "Win"],
   },
   AltLeft: {
-    rus: ["Alt", "Alt"],
+    ru: ["Alt", "Alt"],
     en: ["Alt", "Alt"],
   },
   Space: {
-    rus: [" ", " "],
+    ru: [" ", " "],
     en: [" ", " "],
   },
   AltRight: {
-    rus: ["Alt", "Alt"],
+    ru: ["Alt", "Alt"],
     en: ["Alt", "Alt"],
   },
   ArrowLeft: {
-    rus: ["◄", "◄"],
+    ru: ["◄", "◄"],
     en: ["◄", "◄"],
   },
   ArrowDown: {
-    rus: ["▼", "▼"],
+    ru: ["▼", "▼"],
     en: ["▼", "▼"],
   },
   ArrowRight: {
-    rus: ["►", "►"],
+    ru: ["►", "►"],
     en: ["►", "►"],
   },
   ControlRight: {
-    rus: ["Ctrl", "Ctrl"],
+    ru: ["Ctrl", "Ctrl"],
     en: ["Ctrl", "Ctrl"],
   },
 };
@@ -263,23 +263,15 @@ const createElement = (elType, elClassList, elInnerText) => {
   return newElem;
 };
 function createPage() { 
+  page.innerHTML = '';
+  page.appendChild(createElement("p", ["title"], "RSS Виртуальная клавиатура")); 
+  page.appendChild(textArea);
   let keyboard = creteKeyboard();
   page.appendChild(keyboard);
-  page.appendChild(
-    createElement(
-      "p",
-      ["description"],
-      "Клавиатура создана в операционной системе Windows"
-    )
-  );
-  page.appendChild(
-    createElement(
-      "p",
-      ["language"],
-      "Для переключения языка комбинация: левыe ctrl + alt"
-    )
-  );
+  page.appendChild(createElement("p",["description"],"Клавиатура создана в операционной системе Windows"));
+  page.appendChild(createElement("p",["language"],"Для переключения языка комбинация: левыe ctrl + alt"));
   document.body.appendChild(page);
+  keyNodes = Array.from(document.querySelectorAll('.key'));
 }
 
 function creteKeyboard() {
@@ -303,7 +295,7 @@ function createRow(start, finish) {
 }
 function createKey(key) {
   let keyButoon = createElement("div", ["keyboard--key", "key", key]); 
-  keyButoon.appendChild(createKeylang("rus", key, language == "en"));
+  keyButoon.appendChild(createKeylang("ru", key, language == "en"));
   keyButoon.appendChild(createKeylang("en", key, language != "en"));
   return keyButoon;
 }
@@ -326,13 +318,14 @@ function changeLang(e) {
   }
 }
 function keyStrokeHandler(e) { 
-  document.getElementsByClassName(e.code)[0].classList.add("active"); 
+  console.log(e); 
+  document.getElementsByClassName(e.code)[0].classList.add("active");  
   if (e.code === "ShiftRight" || e.code === "ShiftLeft") {
     shift();
   }else if (e.code === "CapsLock") {
     capsLock();
     if(!isCapsLock) document.getElementsByClassName("CapsLock")[0].classList.remove("active");
-  }else if (e.key === "Alt" || e.key === "Control") {
+  }else if (e.code === "AltLeft" || e.code === "Altright" || e.code === "ControlLeft" || e.code === "ControlRight") {
     changeLang(e);
   }else if (e.code === "Backspace") {
     backspace();
@@ -383,12 +376,11 @@ function insertSpaces(e) {
   textArea.selectionEnd = textArea.selectionStart;
 }
 function modifyTextArea(e) {   
-  let char = "";
-  console.log(e.code);
+  let char = "";  
   keyNodes.forEach((elem) => {
     let classListArray = [...elem.classList]; 
     if(classListArray.indexOf("active") != -1)
-        char = elem.querySelector("span>span:not(.hidden)").textContent;
+        char = elem.querySelector("span:not(.hidden)>span:not(.hidden)").textContent;
   });  
 
   const start = textArea.selectionStart;
@@ -402,7 +394,7 @@ function changeLang(e) {
   if (e.ctrlKey && e.altKey) {
     language = language === "en" ? "ru" : "en";
     localStorage.setItem("language", language);
-    prepareKeyboardLayout();
+    createPage();
   }
 }
 function shift() { 
@@ -423,11 +415,11 @@ function capsLock() {
   isCapsLock = !isCapsLock;
   keyNodes.forEach((key) => {
     if (isCapsLock) { 
-      key.querySelectorAll("span>span:not(.hidden)").forEach((el) => el.classList.add("hidden"));  
-      key.querySelectorAll("span>span.caps").forEach((el) => el.classList.remove("hidden"));  
+      key.querySelectorAll("span:not(.hidden)>span:not(.hidden)").forEach((el) => el.classList.add("hidden"));  
+      key.querySelectorAll("span:not(.hidden)>span.caps").forEach((el) => el.classList.remove("hidden"));  
     } else {
-      key.querySelectorAll("span>span:not(.hidden)").forEach((el) => el.classList.add("hidden"));  
-      key.querySelectorAll("span>span.caseDown").forEach((el) => el.classList.remove("hidden"));  
+      key.querySelectorAll("span:not(.hidden)>span:not(.hidden)").forEach((el) => el.classList.add("hidden"));  
+      key.querySelectorAll("span:not(.hidden)>span.caseDown").forEach((el) => el.classList.remove("hidden"));  
       //document.getElementsByClassName("CapsLock")[0].classList.remove("active");
     }
   });
@@ -438,14 +430,16 @@ localStorage.setItem("language", language);
 let isCapsLock = false;
 let keysArray = Object.keys(buttons);
 
-let page = createElement("div", ["centralizer"]);
-page.appendChild(createElement("p", ["title"], "RSS Виртуальная клавиатура"));
+let page = createElement("div", ["centralizer"]); 
 let textArea = createElement("textarea", ["body--textarea", "textarea"]);
 textArea.id = "textarea";
 textArea.setAttribute("rows", 5);
 textArea.setAttribute("cols", 50);
-page.appendChild(textArea);
+let keyNodes;
  
+createPage();
+ 
+
 document.body.addEventListener('keydown', (e) => {
   if (keysArray.indexOf(e.code) > -1) {
     e.preventDefault();
@@ -458,12 +452,12 @@ document.body.addEventListener('keyup', (e) => {
     keyUpHandler(e);
   }
 });
-document.body.addEventListener('mousedown', (e) => {
-  document.body.dispatchEvent(new KeyboardEvent('keydown', { code: e.target.dataset.keyCode }));
+document.body.addEventListener('mousedown', (e) => { 
+  let eClassList = [...e.target.parentNode.parentNode.classList];
+  document.body.dispatchEvent(new KeyboardEvent('keydown', {code:eClassList[eClassList.length - 1]}));
+  document.getElementsByClassName(eClassList[eClassList.length - 1])[0].classList.remove("active");  
 });
-document.body.addEventListener('mouseup', (e) => {
-  document.body.dispatchEvent(new KeyboardEvent('keyup', { code: e.target.dataset.keyCode }));
-});
-createPage();
-
-let keyNodes = Array.from(document.querySelectorAll('.key'));
+document.body.addEventListener('mouseup', (e) => { 
+  let eClassList = [...e.target.parentNode.parentNode.classList];
+  document.body.dispatchEvent(new KeyboardEvent('keyup', {code:eClassList[eClassList.length - 1]}));
+}); 
