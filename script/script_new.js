@@ -325,7 +325,7 @@ function keyStrokeHandler(e) {
   }else if (e.code === "CapsLock") {
     capsLock();
     if(!isCapsLock) document.getElementsByClassName("CapsLock")[0].classList.remove("active");
-  }else if (e.code === "AltLeft" || e.code === "Altright" || e.code === "ControlLeft" || e.code === "ControlRight") {
+  }else if (e.code === "AltLeft" || e.code === "AltRight" || e.code === "ControlLeft" || e.code === "ControlRight") {
     changeLang(e);
   }else if (e.code === "Backspace") {
     backspace();
