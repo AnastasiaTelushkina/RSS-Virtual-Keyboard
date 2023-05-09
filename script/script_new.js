@@ -265,7 +265,7 @@ const createElement = (elType, elClassList, elInnerText) => {
 };
 function createPage() {
   page.innerHTML = '';
-  page.appendChild(createElement('p', ['title'], 'RSS Виртуальная клавиатура'));
+  page.appendChild(createElement('p', ['title'], 'Виртуальная клавиатура'));
   page.appendChild(textArea);
   const keyboard = creteKeyboard();
   page.appendChild(keyboard);
@@ -283,6 +283,7 @@ function creteKeyboard() {
   keyboard.appendChild(createRow(29, 42));
   keyboard.appendChild(createRow(42, 55));
   keyboard.appendChild(createRow(55, 64));
+
   return keyboard;
 }
 function createRow(start, finish) {
@@ -319,7 +320,7 @@ function changeLang(e) {
     createPage();
   }
 }
-function keyStrokeHandler(e) {
+function keyStrokeHandler(e) { 
   document.getElementsByClassName(e.code)[0].classList.add('active');
   if (e.code === 'ShiftRight' || e.code === 'ShiftLeft') {
     capsLock();
@@ -413,11 +414,22 @@ document.body.addEventListener('keydown', (e) => {
   if (keysArray.indexOf(e.code) > -1) {
     e.preventDefault();
     keyStrokeHandler(e);
+    keyAudio.currentTime = 0.02;
+    const startPlayPromise = keyAudio.play();
+      if (startPlayPromise !== undefined) {
+        startPlayPromise
+          .then(() => {
+          })
+          .catch(() => {
+          });
+      }
   }
 });
 document.body.addEventListener('keyup', (e) => {
   if (keysArray.indexOf(e.code) > -1) {
     e.preventDefault();
+    keyAudio.pause();
+    keyAudio.currentTime = 0.02;
     keyUpHandler(e);
   }
 });
@@ -440,6 +452,7 @@ const keysArray = Object.keys(buttons);
 
 const page = createElement('div', ['centralizer']);
 const textArea = createElement('textarea', ['body--textarea', 'textarea']);
+const keyAudio = new Audio('../audio/key.wav');
 textArea.id = 'textarea';
 textArea.setAttribute('rows', 5);
 textArea.setAttribute('cols', 50);
