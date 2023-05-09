@@ -452,7 +452,7 @@ const keysArray = Object.keys(buttons);
 
 const page = createElement('div', ['centralizer']);
 const textArea = createElement('textarea', ['body--textarea', 'textarea']);
-const keyAudio = new Audio('../audio/key.wav');
+const keyAudio = new Audio('./audio/key.wav');
 textArea.id = 'textarea';
 textArea.setAttribute('rows', 5);
 textArea.setAttribute('cols', 50);
